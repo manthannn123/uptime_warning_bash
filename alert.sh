@@ -3,7 +3,7 @@ warning_days=5
 critical_days=7
 log_file="/var/log/sh-logs/warning-logs.log"
 hostname=$(hostname)
-admin_email="manthansawant456@gmail.com"
+admin_email="abcd@gmail.com"
 
 log(){
 	echo "[$(date '+%d-%m-%y %H:%M:%S')] $1" | tee -a "$log_file"
